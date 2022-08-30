@@ -1,28 +1,28 @@
 # No-show-appointments
 ## Introduction
-> Cet ensemble de données recueille des informations sur 100 000 rendez-vous médicaux au Brésil et se concentre sur la question de savoir si les patients se présentent ou non à leur rendez-vous. Un certain nombre de caractéristiques concernant le patient sont incluses dans chaque rangée. 
-‘ScheduledDay’ nous indique à quel jour le patient a fixé son rendez-vous. ‘Neighborhood’ indique l'emplacement de l'hôpital. ‘Scholarship’ indique si le patient est inscrit ou non au programme de bien-être brésilien Bolsa Família. ‘No-show’ indique « Non » si le patient s'est présenté à son rendez-vous, et « Oui » s'il ne s'est pas présenté.
+> This dataset collects information on 100,000 medical appointments in Brazil and focuses on whether or not patients show up for their appointments. A number of patient characteristics are included in each row.
+‘ScheduledDay’ tells us what day the patient has scheduled their appointment. 'Neighborhood' indicates the location of the hospital. Scholarship indicates whether or not the patient is enrolled in the Brazilian Bolsa Família wellness program. ‘No-show’ indicates “No” if the patient showed up for their appointment, and “Yes” if they did not show up.
 
-> Ainsi dans cette analyse nous allons essayé de répondre aux questions suivantes:
+> Thus in this analysis we will try to answer the following questions:
 
->> 1. Quelle categorie d'âge se présente le moins aux rendez-vous?
->> 2. Lesquels des patients, avec bourses et sans bourses, se présentent-ils les moins au rendez-vous?
->> 3. Quel impact peut avoir le genre du patient sur sa présence ou non au rendez-vous?
->> 4. En quel mois le taux d'absence est le plus élèvé?
+>> 1. Which age category shows up the least at meetings?
+>> 2. Which of the patients, with scholarships and without scholarships, do they show up the least for the appointment?
+>> 3. What impact can the gender of the patient have on whether or not he will attend the appointment?
+>> 4. In which month is the absence rate the highest?
 
 ## Conclusions
-> Nous pouvons au final tirez les conclusions suivantes:
+> We can finally draw the following conclusions:
 
->> 1: Les patients les moins agés sont généralement ceux qui ne se présentent pas à leurs rendez-vous.
+>> 1: The youngest patients are generally those who do not show up for their appointments.
 
->> 2: Les patients boursiers sont généralement ceux qui se présentent les plus à leurs rendez-vous.
+>> 2: Patients on scholarships are generally the ones who show up the most for their appointments.
 
->> 3: Le groupe féminin a un pourcentage d'absence legèrement plus élèvé que le groupe masculin.
+>> 3: The female group has a slightly higher absentee percentage than the male group.
 
->> 4: Le mois de mai enregistre le taux d'absence au rendez-vous le plus élèvé.
+>> 4: The month of May records the highest no-show rate.
 
-> Notre analyse peut présenter des limitations dont entre autres les suivantes:
+> Our analysis may have limitations including the following:
 
->> Les restants des colonnes comme celle de Neighbourhood ne nous semble pas impactante quand à la présence ou l'absence d'un patient à son rendez-vous.
+>> The rest of the columns like that of Neighborhood do not seem to us to have an impact when it comes to the presence or absence of a patient at his or her appointment.
 
->> L'incapacité de pouvoir donnez une information précise quand à la probalité qu'un patient programmé se présente à son rendez-vous.
+>> The inability to be able to give precise information about the probability that a scheduled patient will show up for their appointment.
